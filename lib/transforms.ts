@@ -21,8 +21,8 @@ export class CSVStationTransform extends Transform {
                 // Push the data onto the readable queue.
                 callback(undefined, new Station(
                     chunk[0], 
-                    chunk[1], 
                     chunk[2], 
+                    chunk[1], 
                     parseInt(chunk[6],10),
                     fplrel)
                 );
