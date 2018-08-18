@@ -8,6 +8,10 @@
     "generate-data": "ts-node tool/generate-data.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/fourplusone/ds100.git"
+  },
   "author": "Matthias Bartelmess",
   "license": "CC BY 4.0",
   "dependencies": {},
