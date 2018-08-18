@@ -1,6 +1,6 @@
 {
   "name": "ds-100",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DS100 as a Typescript Module",
   "main": "dist/main.js",
   "types" : "dist/index.d.ts",
