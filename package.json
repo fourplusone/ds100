@@ -1,8 +1,8 @@
 {
-  "name": "ds100",
-  "version": "1.1.0",
+  "name": "ds-100",
+  "version": "0.1.0",
   "description": "DS100 as a Typescript Module",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "npm run generate-data DBNetz-Betriebsstellenverzeichnis-Stand2018-04.csv gen/data.ts && tsc",
     "generate-data": "ts-node tool/generate-data.ts",
@@ -12,6 +12,9 @@
     "type" : "git",
     "url" : "https://github.com/fourplusone/ds100.git"
   },
+  "files": [
+    "dist"
+  ],
   "author": "Matthias Bartelmess",
   "license": "CC BY 4.0",
   "dependencies": {},
