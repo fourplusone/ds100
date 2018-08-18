@@ -1,9 +1,9 @@
 {
   "name": "ds-100",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "DS100 as a Typescript Module",
   "main": "dist/main.js",
-  "types" : "dist/index.d.ts",
+  "types" : "dist/main.d.ts",
   "scripts": {
     "build": "npm run generate-data DBNetz-Betriebsstellenverzeichnis-Stand2018-04.csv gen/data.ts && tsc",
     "generate-data": "ts-node tool/generate-data.ts",
