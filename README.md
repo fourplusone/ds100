@@ -1,6 +1,6 @@
 # DS100 Codes (Deutsche Bahn station abbreviations)
 
-[![Build Status](https://travis-ci.com/fourplusone/ds100.svg?branch=master)](https://travis-ci.com/fourplusone/ds100)
+[![Build Status](https://travis-ci.com/fourplusone/ds100.svg?branch=master)](https://travis-ci.com/fourplusone/ds100) [![Greenkeeper badge](https://badges.greenkeeper.io/fourplusone/ds100.svg)](https://greenkeeper.io/)
 
 This module contains all a list of all [DS100 Codes](https://de.wikipedia.org/wiki/Betriebsstellenverzeichnis) used by Deutsche Bahn.
 
